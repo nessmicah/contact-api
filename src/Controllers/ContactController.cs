@@ -87,7 +87,7 @@ namespace ContactApi.Controllers
     public IActionResult Put(int id, [FromBody] Contact contact)
     {
       //Assumes only basic info required for contact
-      if (string.IsNullOrEmpty(contact.Name.First) || string.IsNullOrEmpty(contact.Name.Last) || string.IsNullOrEmpty(contact.Email))
+      if (string.IsNullOrEmpty(contact.Name.First) || string.IsNullOrEmpty(contact.Name.Last))
       {
         return BadRequest("Please fill out all required fields");
       }
