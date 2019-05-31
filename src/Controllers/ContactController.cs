@@ -86,10 +86,20 @@ namespace ContactApi.Controllers
     [ProducesResponseType(404)]
     public IActionResult Put(int id, [FromBody] Contact contact)
     {
+      if (id <= 0)
+      {
+        return BadRequest("Please pass a valid id");
+      }
+
       //Assumes only basic info required for contact
       if (string.IsNullOrEmpty(contact.Name.First) || string.IsNullOrEmpty(contact.Name.Last))
       {
         return BadRequest("Please fill out all required fields");
+      }
+
+      if (contact.Id <= 0)
+      {
+        contact.Id = id;
       }
 
       var contactResult = _contentService.Update(id, contact);
