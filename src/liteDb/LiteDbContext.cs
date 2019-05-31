@@ -17,7 +17,7 @@ namespace BugPages.Common
       }
       catch (Exception ex)
       {
-        throw new Exception("Can find or create LiteDb database.", ex);
+        throw new Exception("Cannot find or create LiteDb database.", ex);
       }
     }
   }
