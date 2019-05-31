@@ -5,8 +5,7 @@ using ContactApi.interfaces;
 
 namespace ContactApi.services
 {
-  //This could also be set up as an interface and repo if better separation is desired.
-  public class ContactRepository : IContactRepository
+  public class ContactService : IContactService
   {
     public List<Contact> GetAll() => Contact.GetContacts();
 

@@ -12111,11 +12111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/micah/Projects/contact-api/ContactApi/ContactApi.csproj",
+      "projectUniqueName": "/Users/micah/Projects/contact-api/contact-api/src/ContactApi.csproj",
       "projectName": "ContactApi",
-      "projectPath": "/Users/micah/Projects/contact-api/ContactApi/ContactApi.csproj",
+      "projectPath": "/Users/micah/Projects/contact-api/contact-api/src/ContactApi.csproj",
       "packagesPath": "/Users/micah/.nuget/packages/",
-      "outputPath": "/Users/micah/Projects/contact-api/ContactApi/obj/",
+      "outputPath": "/Users/micah/Projects/contact-api/contact-api/src/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

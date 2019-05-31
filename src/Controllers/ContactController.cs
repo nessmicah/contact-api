@@ -12,11 +12,11 @@ namespace ContactApi.Controllers
   [ApiController]
   public class ContactController : Controller
   {
-    private IContactRepository _contentRepository;
+    private IContactService _contentService;
 
-    public ContactController(IContactRepository contentRepository)
+    public ContactController(IContactService contentService)
     {
-      _contentRepository = contentRepository;
+      _contentService = contentService;
     }
 
     // GET api/contacts
@@ -25,7 +25,7 @@ namespace ContactApi.Controllers
     [ProducesResponseType(404)]
     public IActionResult Get()
     {
-      var contacts = _contentRepository.GetAll();
+      var contacts = _contentService.GetAll();
 
       if (contacts == null)
       {
@@ -46,7 +46,7 @@ namespace ContactApi.Controllers
       {
         return BadRequest("Please pass a valid id");
       }
-      var contact = _contentRepository.GetById(id);
+      var contact = _contentService.GetById(id);
 
       if (contact != null)
       {
@@ -68,7 +68,7 @@ namespace ContactApi.Controllers
       {
         return BadRequest("Please fill out all required fields");
       }
-      var contactResult = _contentRepository.Add(contact);
+      var contactResult = _contentService.Add(contact);
 
       if (contactResult != null)
       {
@@ -92,7 +92,7 @@ namespace ContactApi.Controllers
         return BadRequest("Please fill out all required fields");
       }
 
-      var contactResult = _contentRepository.Update(id, contact);
+      var contactResult = _contentService.Update(id, contact);
 
       if (contactResult != null)
       {
@@ -106,7 +106,7 @@ namespace ContactApi.Controllers
     [HttpDelete("{id}")]
     public bool Delete(int id)
     {
-      var result = _contentRepository.Delete(id);
+      var result = _contentService.Delete(id);
 
       return result;
     }

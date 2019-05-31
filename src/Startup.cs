@@ -31,7 +31,7 @@ namespace ContactApi
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddLiteDb(this.Configuration.GetConnectionString("DefaultConnection"));
-            services.AddScoped<IContactRepository, ContactRepository>();
+            services.AddScoped<IContactService, ContactService>();
 
             Globals.DbConnectionString = this.Configuration.GetConnectionString("DefaultConnection");
         }
