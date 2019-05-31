@@ -1,0 +1,14 @@
+/Users/micah/Projects/contact-api/ContactApi/bin/Debug/netcoreapp2.2/ContactApi.deps.json
+/Users/micah/Projects/contact-api/ContactApi/bin/Debug/netcoreapp2.2/ContactApi.runtimeconfig.json
+/Users/micah/Projects/contact-api/ContactApi/bin/Debug/netcoreapp2.2/ContactApi.runtimeconfig.dev.json
+/Users/micah/Projects/contact-api/ContactApi/bin/Debug/netcoreapp2.2/ContactApi.dll
+/Users/micah/Projects/contact-api/ContactApi/bin/Debug/netcoreapp2.2/ContactApi.pdb
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.csprojAssemblyReference.cache
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.csproj.CoreCompileInputs.cache
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.RazorAssemblyInfo.cache
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.RazorAssemblyInfo.cs
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.AssemblyInfoInputs.cache
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.AssemblyInfo.cs
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.RazorTargetAssemblyInfo.cache
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.dll
+/Users/micah/Projects/contact-api/ContactApi/obj/Debug/netcoreapp2.2/ContactApi.pdb
